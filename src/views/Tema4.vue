@@ -5,7 +5,18 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Tema 4
+      h1 Acciones de mejora
+    
+    Separador
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 4.1.	Pasos a seguir para la elaboración del plan de mejoras
+      
+    
+    Separador
+    #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 4.2.	Informes
+      
+
 
 
 </template>
