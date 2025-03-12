@@ -8,11 +8,11 @@
       h1 Control presupuestal
       
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema3/img1.png', alt='Texto que describa la imagen')
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right")
         p Es el proceso de monitorear el desempeño financiero del proyecto, para garantizar que se mantenga dentro del presupuesto aprobado. Forma parte del área de conocimiento de gestión de costos y está diseñado para identificar desviaciones, prever sobrecostos y tomar acciones correctivas en caso necesario. Este proceso es continuo y se realiza durante toda la ejecución del proyecto, se hace de acuerdo con la actividad y va atado a un cronograma y a un plan de trabajo.
 
     Separador
@@ -71,88 +71,89 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.2.	Tablero de control (#[i Dashboard])
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
         p Es una herramienta visual que presenta información clave sobre el desempeño financiero de un proyecto, en tiempo real. Su objetivo es proporcionar una visión clara, concisa y fácilmente accesible de los indicadores más importantes relacionados con el presupuesto. Además, lleva a cabo los siguientes procesos: 
         .row.mb-4
-          .col-lg-6
+          .col-lg-6(data-aos="fade-right")
             .tarjeta.color-acento-contenido.tarjeta-color1.h-100.p-4
               h4 Costo planeado-costo real
               p Muestra si el proyecto está dentro del presupuesto, con gráficos de barras o líneas, para comparar el costo planificado frente al costo real.
-          .col-lg-6
+          .col-lg-6(data-aos="fade-right")
             .tarjeta.color-acento-contenido.tarjeta-color1.h-100.p-4
               h4  Indice de Desempeño del Costo (IPC)
               p Indica la eficiencia en el uso del presupuesto, con valores por encima de 1, mostrando que el proyecto está bajo presupuesto.
         .row
-          .col-lg-6
+          .col-lg-6(data-aos="fade-right")
             .tarjeta.color-acento-contenido.tarjeta-color1.h-100.p-4
               h4 Variación del Costo (CV)
               p Muestra la diferencia entre el costo real y el planeado.
-          .col-lg-6
+          .col-lg-6(data-aos="fade-right")
             .tarjeta.color-acento-contenido.tarjeta-color1.h-100.p-4
               h4  Proyección de Costo Total (EAC)
               p Estima los costos al final del proyecto, basado en el desempeño actual.
          
-      .col-lg-4
+      .col-lg-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema3/img8.png', alt='Figura decorativa')
     
     Separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.3	Procedimiento de elaboración
+         
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+      .col-lg-3(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema3/img9.png', alt='Figura decorativa')
-
       .col-lg-9
-        p Se refiere a los pasos que se siguen para planificar, monitorear y controlar los costos, a lo largo del ciclo de vida del proyecto. Este procedimiento busca garantizar que los recursos financieros se gestionen de manera eficiente y que el proyecto se mantenga dentro del presupuesto establecido. Igualmente, lleva a cabo una serie de acciones, descritas a continuación: 
-        .row.justify-content-center.mb-5
+        .row
+          .col-lg-12(data-aos="fade-right")
+            p Se refiere a los pasos que se siguen para planificar, monitorear y controlar los costos, a lo largo del ciclo de vida del proyecto. Este procedimiento busca garantizar que los recursos financieros se gestionen de manera eficiente y que el proyecto se mantenga dentro del presupuesto establecido. Igualmente, lleva a cabo una serie de acciones, descritas a continuación: 
           .col-lg-12
               .row.align-items-center.cajon.cajon1
-                .col-lg-2
+                .col-lg-2(data-aos="zoom-in")
                   figure
                     img(src="@/assets/curso/temas/tema3/img10.svg", alt="alt").img100
-                .col-lg-9.p-2
+                .col-lg-9.p-2(data-aos="fade-right")
                   h5 Planificación del presupuesto
                   p Establece el presupuesto del proyecto, asignando los recursos financieros necesarios a cada actividad o tarea. Esta fase también define cómo se gestionarán los costos a lo largo del proyecto.
             
               .row.align-items-center.cajon.cajon
-                .col-lg-2
+                .col-lg-2(data-aos="zoom-in")
                   figure
                     img(src="@/assets/curso/temas/tema3/img11.svg", alt="alt").img100
-                .col-lg-10.p-2
+                .col-lg-10.p-2(data-aos="fade-right")
                   h5 Establecimiento de controles de costos
                   p  Implementa mecanismos y herramientas para controlar los costos durante la ejecución del proyecto.
             
               .row.align-items-center.cajon.cajon1
-                .col-lg-2
+                .col-lg-2(data-aos="zoom-in")
                   figure
                     img(src="@/assets/curso/temas/tema3/img12.svg", alt="alt").img100
-                .col-lg-10.p-2
+                .col-lg-10.p-2(data-aos="fade-right")
                   h5 Ejecución del Proyecto y Monitoreo Continuo
                   p  Lleva a cabo las actividades del proyecto, según lo planeado, mientras se supervisa el cumplimiento del presupuesto.
             
               .row.align-items-center.cajon.cajon
-                .col-lg-2
+                .col-lg-2(data-aos="zoom-in")
                   figure
                     img(src="@/assets/curso/temas/tema3/img13.svg", alt="alt").img100
-                .col-lg-10.p-2
+                .col-lg-10.p-2(data-aos="fade-right")
                   h5 Identificación de desviaciones y toma de acción correctiva
                   p  Detecta cualquier desviación en los costos y toma las medidas necesarias para corregirlas y mantener el proyecto dentro del presupuesto. 
             
               .row.align-items-center.cajon.cajon1
-                .col-lg-2
+                .col-lg-2(data-aos="zoom-in")
                   figure
                     img(src="@/assets/curso/temas/tema3/img14.svg", alt="alt").img100
-                .col-lg-10.p-2
+                .col-lg-10.p-2(data-aos="fade-right")
                   h5 Proyección y estimación final de costos
                   p  Estima el costo total del proyecto al finalizar, calculando el desempeño actual y las proyecciones de gastos futuros.
             
               .row.align-items-center.cajon.cajon
-                .col-lg-2
+                .col-lg-2(data-aos="zoom-in")
                   figure
                     img(src="@/assets/curso/temas/tema3/img15.svg", alt="alt").img100
-                .col-lg-10.p-2
+                .col-lg-10.p-2(data-aos="fade-right")
                   h5 Cierre y evaluación del control presupuestal
                   p Finaliza el proceso de control presupuestal, asegurando que todos los costos estén registrados y que se haya cumplido con los objetivos financieros del proyecto.
 </template>

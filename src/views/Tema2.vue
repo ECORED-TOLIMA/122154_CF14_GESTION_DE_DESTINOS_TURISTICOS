@@ -8,7 +8,7 @@
       h1 Gestión de actividades del proyecto
     
     .row.mb-5
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .tarjeta--boton.color-primario.tarjeta--BG02.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -16,7 +16,7 @@
                 img(src='@/assets/curso/temas/tema2/img1.svg', alt="Imagen decorativa")
           p Definir las actividades a realizar
 
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .tarjeta--boton.color-secundario.tarjeta--BG02.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -25,7 +25,7 @@
 
           p Organizarlas de manera lógica
 
-      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0(data-aos="zoom-in")
         .tarjeta--boton.color-acento-contenido.tarjeta--BG02.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -34,7 +34,7 @@
                 
           p Estimar los recursos y la duración requerida.
 
-      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0(data-aos="zoom-in")
         .tarjeta--boton.color-acento-contenido.tarjeta--BG02.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -47,7 +47,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.1	Etapas
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-right")
         p Es importante conocer las siguientes etapas que se llevan a cabo en el proceso de gestión de actividades del proyecto; tenga presente que cada una tiene su esquema representativo: 
     
     .tarjeta.tarjeta--BG01.p-4.mb-4
@@ -97,10 +97,10 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.3	Habilidades
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
+      .col-lg-12(data-aos="fade-right")
         p A continuación, se describen las habilidades más destacadas dentro del proceso de la gestión de actividades del proyecto:  
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="zoom-in")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Conocimientos técnicos")
             .col-md-12.mb-md-0
@@ -123,7 +123,7 @@
       h2 2.3	Ciclo de vida de la gestión
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
         p Abarca las etapas necesarias para planificar, ejecutar y controlar las tareas que conforman un proyecto. Estas etapas aseguran que las actividades sean gestionadas de manera estructurada, eficiente y alineada con los objetivos del proyecto. Este ciclo, contiene las siguientes etapas con sus respectivas acciones a realizar: 
         LineaTiempoD.color-acento-botones
           p.text-normal(numero="1" titulo="Iniciación") Identificar los objetivos generales del proyecto y establecer un marco básico para definir las actividades necesarias (determinar los entregables principales, identificar las actividades de alto nivel necesarias para cumplir los objetivos, establecer roles y responsabilidades iniciales).
@@ -132,16 +132,18 @@
           p.text-normal(numero="4" titulo="Monitoreo") Asegurar que las actividades se completen según lo planeado y ajustar según sea necesario para mantener el proyecto alineado (supervisar el progreso de las actividades respecto al cronograma, identificar desviaciones en tiempo, recursos o calidad, implementar medidas correctivas o preventivas, revisar dependencias y ajustar el cronograma si es necesario).
           p.text-normal(numero="5" titulo="Cierre") Formalizar la finalización de las actividades y verificar que se han cumplido los objetivos (verificar que todas las actividades hayan sido completadas y aprobadas, documentar lecciones aprendidas sobre la gestión de actividades, archivar el cronograma y los registros de las actividades).
             
-      .col-lg-4
+      .col-lg-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema2/img13.svg', alt="Imagen decorativa")
-    
-    .row.justify-content-center
-      .col-lg-2
-        figure
-          img(src='@/assets/curso/temas/tema2/img14.svg', alt='Texto que describa la imagen')
-      .col-lg-8
-        p Controlar el alcance del proyecto es clave para asegurar que se entreguen todos los componentes planificados y no se incorporen cambios no previstos (lo que se conoce como "#[i scope creep]"). En proyectos turísticos, esto podría incluir la definición precisa de los servicios turísticos que se ofrecerán, las actividades y los itinerarios y cómo estos elementos se ajustan a las expectativas del cliente.
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        .cajon.color-primario
+          .row.justify-content-center
+            .col-lg-2(data-aos="zoom-in")
+              figure
+                img(src='@/assets/curso/temas/tema2/img14.svg', alt='Texto que describa la imagen')
+            .col-lg-10.p-4(data-aos="fade-right")
+              p.p-4 Controlar el alcance del proyecto es clave para asegurar que se entreguen todos los componentes planificados y no se incorporen cambios no previstos (lo que se conoce como "#[i scope creep]"). En proyectos turísticos, esto podría incluir la definición precisa de los servicios turísticos que se ofrecerán, las actividades y los itinerarios y cómo estos elementos se ajustan a las expectativas del cliente.
 </template>
 
 <script>
