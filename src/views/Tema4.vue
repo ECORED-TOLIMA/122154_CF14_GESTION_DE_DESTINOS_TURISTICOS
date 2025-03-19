@@ -8,9 +8,14 @@
       h1 Acciones de mejora
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8(data-aos="fade-right")
-        p Una acción de mejora, es una medida que contribuye a mejorar la eficiencia o eficacia de las actividades de un sistema de gestión. Estas se incluyen en el plan de mejoras, el que constituye el principal objetivo dentro de un proceso de mejora continua, por lo que son consideradas como las principales herramientas a desarrollar dentro del mismo. 
+        p Una acción de mejora es una medida que contribuye a mejorar la eficiencia o eficacia de las actividades de un sistema de gestión. Estas se incluyen en el plan de mejoras, que constituye el principal objetivo dentro de un proceso de mejora continua, por lo que son consideradas las principales herramientas a desarrollar dentro del mismo. 
         .cajon.color-primario.p-4.mb-4
-          p Para elaborar un plan de mejoras, se necesita el compromiso de todos los que intervienen en cada etapa del proyecto. Este plan, proyecta los cambios que deben incorporarse a los diferentes procesos del proyecto, para que se ajusten, con el fin de obtener el éxito del proyecto. 
+          .row.mb-0 
+            .col-lg-2
+              figure
+                img(src='@/assets/curso/temas/tema4/img2.svg', alt='Texto que describa la imagen')
+            .col-lg-10
+              p Para elaborar un plan de mejoras, se necesita el compromiso de todos los que intervienen en cada etapa del proyecto. Este plan proyecta los cambios que deben incorporarse a los diferentes procesos del proyecto, para que se ajusten con el fin de obtener el éxito del proyecto. 
       .col-lg-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema4/img1.png', alt='Texto que describa la imagen')
@@ -21,25 +26,25 @@
           img(src='@/assets/curso/temas/tema4/img3.png', alt='Texto que describa la imagen')
       .col-lg-6(data-aos="fade-right")
         p Un plan de mejoras, ayuda a detectar los aspectos a mejorar y permite el control y seguimiento de las diferentes acciones a desarrollar, sobre problemáticas detectadas, como las no previstas. Para su elaboración, se requiere establecer los objetivos que se proponen alcanzar y diseñar la planificación de las tareas para conseguirlos. En este sentido, el plan de mejoras permite: 
-        .cajon.color-primario.p-4.mb-4
+        .cajon.cajon.color-secundario.p-4.mb-4
           ul.lista-ul
             li
-              i.fas.fa-angle-right
+              i.fas.fa-plane
               | Identificar las causas que generaron la acción correctiva.
             li
-              i.fas.fa-angle-right
+              i.fas.fa-plane
               | Identificar las acciones de mejora que se deben aplicar.
             li
-              i.fas.fa-angle-right
+              i.fas.fa-plane
               | Analizar la pertinencia de su implementación.
             li
-              i.fas.fa-angle-right
+              i.fas.fa-plane
               | Dar prioridad en las acciones a adelantar.
             li
-              i.fas.fa-angle-right
+              i.fas.fa-plane
               | Socializar y revisar la estrategia planteada.
             li
-              i.fas.fa-angle-right
+              i.fas.fa-plane
               | Incrementar la eficacia y eficiencia del proyecto.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-right")
@@ -73,10 +78,10 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img5.png')})`}" data-aos="fade-left"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
-        p.mb-0 En un proyecto turístico, se debe elaborar un informe, el cual permite evaluar los recursos turísticos, tanto naturales como culturales, la infraestructura que tiene el destino, la oferta y demanda turística, la identificación de los atractivos que atraen turistas, así como las carencias en estos mismos aspectos, que limitan que se dé el desarrollo turístico. También permite establecer la competitividad del destino, comparándolo con otros similares, valiéndose del estudio de los factores socioeconómicos y ambientales, que son eje del desarrollo turístico sostenible.
+        p.mb-0 En un proyecto turístico, se debe elaborar un informe que permita evaluar los recursos turísticos, tanto naturales como culturales, la infraestructura del destino, la oferta y demanda turística, la identificación de los atractivos, así como las carencias en estos mismos aspectos que puedan limitar el desarrollo turístico. Además, dicho informe permite analizar la competitividad del destino al compararlo con otros similares, valiéndose del estudio de los factores socioeconómicos y ambientales que constituyen el eje del desarrollo turístico sostenible.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="zoom-in")
-        p Para la realización del mismo, es importante tener en cuenta y relacionar todas las anteriores variables, que son las que, a la final, dan cuenta del avance del proyecto, los problemas que se presentan y las soluciones que se han dado para resolverlos. Este es considerado como el eje de sostenibilidad del proyecto, ya que a futuro permitirá simplificar las acciones a desarrollar, puesto que se ha pasado por procesos de validación en el mismo.
+        p Para su elaboración, es importante considerar y relacionar todas las variables mencionadas, ya que, en última instancia, reflejan el avance del proyecto, los problemas surgidos y las soluciones implementadas. Este informe se considera el eje de sostenibilidad del proyecto, pues, a futuro, permitirá simplificar las acciones a desarrollar al haber pasado por procesos de validación.
 
 
 </template>

@@ -10,7 +10,7 @@
       h1 Introducción
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-right")
-        p Los proyectos turísticos impactan de manera positiva a la región en la que se va a implementar, ya que ayudan al desarrollo económico, a la generación de empleo local, se incrementa la demanda de bienes y servicios y se beneficia la cadena de valor del turismo. Cuando se hacen inversiones de carácter turístico en las regiones, se espera que estas sean a largo plazo, por lo cual los proyectores turísticos deben estar sujetos a controles y seguimientos permanentemente.
+        p Los proyectos turísticos impactan de manera positiva a la región en la que se van a implementar, ya que ayudan al desarrollo económico, a la generación de empleo local, se incrementa la demanda de bienes y servicios y se beneficia la cadena de valor del turismo. Cuando se hacen inversiones de carácter turístico en las regiones, se espera que estas sean a largo plazo, por lo cual los proyectos turísticos deben estar sujetos a controles y seguimientos permanentemente.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3(data-aos="zoom-in")
         figure
@@ -36,8 +36,8 @@
       .col-lg-12(data-aos="zoom-in")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+            iframe(width="1280" height="720" src="https://www.youtube.com/embed/yAX8KoTCdcE" title="Control y seguimiento del proyecto turístico" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+            
 </template>
 
 <script>

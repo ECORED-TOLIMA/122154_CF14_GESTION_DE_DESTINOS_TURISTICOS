@@ -24,7 +24,7 @@
 
       Separador
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 1.1	Conceptos clave en la administración turística
+        h2 1.1	Procedimiento
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-12(data-aos="fade-right")
           p La realización del control se divide en 4 fases principales y consecutivas, que son:
@@ -33,7 +33,7 @@
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Establecimiento de los estándares y métodos más adecuados para la medición de los resultados")
               .col-md-12.mb-md-0
-                p Los estándares se deben especificar de manera precisa y cuantitativa y ser socializados Estos se fijan con base en los objetivos planteados para el proyecto. Pueden plantearse de varias formas: físicos, monetarios o porcentuales.
+                p Los estándares se deben especificar de manera precisa y cuantitativa y ser socializados. Estos se fijan con base en los objetivos planteados para el proyecto. Pueden plantearse de varias formas: físicos, monetarios o porcentuales.
             .row(titulo="Medición de los resultados reales")
               .col-md-12.mb-md-0
                 p Medir los resultados es relativamente fácil cuando las actividades producen resultados específicos, por ejemplo, nivel de ventas. Pero cuando se debe medir variables como el resultado de algunas actividades, esto se hace algo complejo, por ejemplo, los impactos sociales y ambientales. Esta información se recolecta a través de fuentes alternativas como la observación personal, información probabilística y estadística, y de los informes ya sean verbales o escritos.
@@ -68,7 +68,7 @@
             
       Separador
       #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 1.2	Conceptos clave en la administración turística
+        h2 1.2	Herramientas
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-12(data-aos="fade-right")
           p A continuación, se mencionan y explican las herramientas utilizadas por realizar los procedimientos de control y seguimiento, en los diferentes tipos de alcances: 

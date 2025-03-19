@@ -6,7 +6,9 @@
       .titulo-principal__numero
         span 2
       h1 Gestión de actividades del proyecto
-    
+    .row.justify-content-center.mb-3
+      .col-lg-12
+        p Se enfoca en identificar, planificar, ejecutar, monitorear y controlar las tareas específicas necesarias para cumplir con los objetivos del proyecto. Esto incluye:
     .row.mb-5
       .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .tarjeta--boton.color-primario.tarjeta--BG02.p-4
@@ -14,7 +16,7 @@
             .col-7
               figure
                 img(src='@/assets/curso/temas/tema2/img1.svg', alt="Imagen decorativa")
-          p Definir las actividades a realizar
+          p Definir las actividades a realizar.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .tarjeta--boton.color-secundario.tarjeta--BG02.p-4
@@ -23,7 +25,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img2.svg', alt="Imagen decorativa")
 
-          p Organizarlas de manera lógica
+          p Organizarlas de manera lógica.
 
       .col-sm-6.col-lg-3.mb-4.mb-sm-0(data-aos="zoom-in")
         .tarjeta--boton.color-acento-contenido.tarjeta--BG02.p-4
@@ -48,7 +50,7 @@
       h2 2.1	Etapas
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-right")
-        p Es importante conocer las siguientes etapas que se llevan a cabo en el proceso de gestión de actividades del proyecto; tenga presente que cada una tiene su esquema representativo: 
+        p Es importante conocer las siguientes etapas que se desarrollan en el proceso de gestión de actividades del proyecto; se debe tener en cuenta que cada una cuenta con su propio esquema representativo.
     
     .tarjeta.tarjeta--BG01.p-4.mb-4
       SlyderA(tipo="b" data-aos="zoom-in")
@@ -95,7 +97,7 @@
     
     Separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.3	Habilidades
+      h2 2.2	Habilidades
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-right")
         p A continuación, se describen las habilidades más destacadas dentro del proceso de la gestión de actividades del proyecto:  
