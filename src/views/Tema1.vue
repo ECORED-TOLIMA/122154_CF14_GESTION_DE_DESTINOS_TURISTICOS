@@ -8,7 +8,7 @@
         h1 	Control y seguimiento
       
       .row.justify-content-center.align-items-center.mb-4
-        .col-lg-4(data-aos="zoom-in")
+        .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/temas/tema1/img1.png', alt='Texto que describa la imagen')
 
@@ -16,7 +16,7 @@
           p Las acciones que se desarrollan en la actividad turística en cualquier región del país, requieren de controles de manera permanente. Se entiende que lo que no se mide, no se controla y lo que no se controla, no se puede mejorar. Cualquier acción de control se hace con el fin de buscar que los recursos que se destinan para el desarrollo de un proyecto turístico, se inviertan de la forma más adecuada, con el fin de garantizar el cumplimiento de sus objetivos.
           .cajon.color-primario.p-4.mb-4
             .row.justify-content-center
-              .col-lg-2(data-aos="zoom-in")
+              .col-lg-2.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
                 figure
                   img(src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen')
               .col-lg-10(data-aos="fade-right")
@@ -25,9 +25,7 @@
       Separador
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 1.1	Procedimiento
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-12(data-aos="fade-right")
-          p La realización del control se divide en 4 fases principales y consecutivas, que son:
+      p(data-aos="fade-right") La realización del control se divide en 4 fases principales y consecutivas, que son:
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
@@ -46,63 +44,64 @@
               .col-md-12.mb-md-0
                 p Suponen cambios en diferentes actividades necesarias para llevar a cabo los procesos planteados inicialmente. Debe identificarse el encargado de realizar esas medidas.
               
-        .col-lg-4(data-aos="zoom-in")
+        .col-lg-4.d-lg-flex.d-none(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/temas/tema1/img3.png', alt='Texto que describa la imagen')
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-12(data-aos="fade-right")
-          p Por lo anterior, se relaciona la siguiente figura:
+      
+      
+      .tarjeta--BG06
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-11
+            p(data-aos="fade-right") Por lo anterior, se relaciona la siguiente figura:
 
-      .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
-        h5 Figura 1.
-        span  #[i Resumen del proceso de control ]
-    
-      .row.justify-content-center.mb-4(data-aos="zoom-in")
-        .col-md-10.desktop(data-aos="zoom-in")
-          figure
-            img(src='@/assets/curso/temas/tema1/img4.svg', alt='Figura 1 que contiene el resumen de lo que se lleva a cabo al momento de realizar un control y seguimiento, estableciendo que hay unas condiciones sobre si se conoce o no la existencia de las desviaciones.')
-            
-        .col-md-6.movil(data-aos="zoom-in")
-          figure
-            img(src='@/assets/curso/temas/tema1/img4_1.svg', alt='Figura 1 que contiene el resumen de lo que se lleva a cabo al momento de realizar un control y seguimiento, estableciendo que hay unas condiciones sobre si se conoce o no la existencia de las desviaciones.')
+        .titulo-sexto.color-acento-contenido.offset-1(data-aos="zoom-in")
+          h5 Figura 1.
+          span  #[i Resumen del proceso de control ]
+      
+        .row.justify-content-center.mb-4(data-aos="zoom-in")
+          .col-md-10.desktop(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema1/img4.svg', alt='Figura 1 que contiene el resumen de lo que se lleva a cabo al momento de realizar un control y seguimiento, estableciendo que hay unas condiciones sobre si se conoce o no la existencia de las desviaciones.')
+              
+          .col-md-6.movil(data-aos="zoom-in")
+            figure
+              img(src='@/assets/curso/temas/tema1/img4_1.svg', alt='Figura 1 que contiene el resumen de lo que se lleva a cabo al momento de realizar un control y seguimiento, estableciendo que hay unas condiciones sobre si se conoce o no la existencia de las desviaciones.')
             
       Separador
       #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 1.2	Herramientas
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-12(data-aos="fade-right")
-          p A continuación, se mencionan y explican las herramientas utilizadas por realizar los procedimientos de control y seguimiento, en los diferentes tipos de alcances: 
-      TabsC.color-acento-contenido.mb-5
+      p(data-aos="fade-right") A continuación, se mencionan y explican las herramientas utilizadas por realizar los procedimientos de control y seguimiento, en los diferentes tipos de alcances: 
+      TabsC.color-acento-botones.mb-5
         .py-4.py-md-5(titulo="Gestión del alcance")
-          .row
+          .row.justify-content-center
             .col-md-6.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/temas/tema1/img5.png', alt='Texto que describa la imagen')
-            .col-md-6
-              .row
-                .col-lg-2(data-aos="zoom-in")
+            .col-md-5
+              .row.mb-3
+                .col-lg-2.col-8.mb-lg-0.mb-4.d-lg-flex.d-none(data-aos="zoom-in")
                   figure
                     img(src='@/assets/curso/temas/tema1/img6.svg', alt='Texto que describa la imagen')
               p Esta herramienta permite analizar la variación entre el alcance planificado y el ejecutado de cada proyecto. Para el análisis de variación, se indica emplear herramientas de control, como inspecciones para garantizar que los entregables cumplan con los requisitos indicados.
         .py-4.py-md-5(titulo="Gestión del cronograma")
-          .row
+          .row.justify-content-center
             .col-md-6.mb-4.mb-md-0(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/temas/tema1/img7.png', alt='Texto que describa la imagen')
-            .col-md-6
-              .row
-                .col-lg-2
+            .col-md-3
+              .row.mb-2
+                .col-lg-2.col-8.mb-lg-0.mb-4.d-lg-flex.d-none
                   figure
                     img(src='@/assets/curso/temas/tema1/img8.svg', alt='Texto que describa la imagen')
               p Los #[i softwares] de gestión de cronogramas como Microsoft Project o Primavera para actualizar y monitorear los tiempos de entrega de resultados, permiten tener control sobre los componentes y sus horarios de entrega. Además, la metodología de análisis de tendencias revisa los patrones para prevenir desviaciones futuras.
         .py-4.py-md-5(titulo="Gestión de calidad")
-          .row
-            .col-md-6.mb-4.mb-md-0(data-aos="zoom-in")
+          .row.justify-content-center
+            .col-md-6.mb-4.mb-md-0.d-lg-flex.d-none(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
-            .col-md-6
-              .row
-                .col-lg-2(data-aos="zoom-in")
+            .col-md-3
+              .row.mb-2
+                .col-lg-2.col-8.mb-lg-0.mb-4.d-lg-flex.d-none(data-aos="zoom-in")
                   figure
                     img(src='@/assets/curso/temas/tema1/img10.svg', alt='Texto que describa la imagen')
               p Para este punto, se emplean las listas de verificación para garantizar que los entregables cumplan con los estándares de calidad, además se realizan auditorías de calidad, las cuales se basan en evaluaciones estructuradas de procesos y entregables. Finalmente, se lleva a cabo un diagrama de causa-efecto para identificar causas raíz de problemas de calidad.
