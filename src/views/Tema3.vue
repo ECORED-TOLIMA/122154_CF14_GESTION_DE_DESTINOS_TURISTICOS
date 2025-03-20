@@ -110,53 +110,53 @@
           .col-lg-12(data-aos="fade-right")
             p Se refiere a los pasos que se siguen para planificar, monitorear y controlar los costos, a lo largo del ciclo de vida del proyecto. Este procedimiento busca garantizar que los recursos financieros se gestionen de manera eficiente y que el proyecto se mantenga dentro del presupuesto establecido. Igualmente, lleva a cabo una serie de acciones, descritas a continuación: 
           .col-lg-12
-              .row.align-items-center.cajon.cajon1
-                .col-lg-2(data-aos="zoom-in")
+              .row.cajon.cajon1
+                .col-lg-2.cajon.cajon_1(data-aos="zoom-in")
                   figure
                     img(src="@/assets/curso/temas/tema3/img10.svg", alt="alt").img100
-                .col-lg-9.p-2(data-aos="fade-right")
-                  h5 Planificación del presupuesto
-                  p Establece el presupuesto del proyecto, asignando los recursos financieros necesarios a cada actividad o tarea. Esta fase también define cómo se gestionarán los costos a lo largo del proyecto.
+                .col-lg-10.p-2(data-aos="fade-right")
+                  h5.mh5 Planificación del presupuesto
+                  p.mb-0 Establece el presupuesto del proyecto, asignando los recursos financieros necesarios a cada actividad o tarea. Esta fase también define cómo se gestionarán los costos a lo largo del proyecto.
             
-              .row.align-items-center.cajon.cajon
-                .col-lg-2(data-aos="zoom-in")
+              .row.cajon.cajon
+                .col-lg-2.cajon.cajon_2(data-aos="zoom-in")
                   figure
                     img(src="@/assets/curso/temas/tema3/img11.svg", alt="alt").img100
                 .col-lg-10.p-2(data-aos="fade-right")
-                  h5 Establecimiento de controles de costos
-                  p  Implementa mecanismos y herramientas para controlar los costos durante la ejecución del proyecto.
+                  h5.mh5 Establecimiento de controles de costos
+                  p.mb-0  Implementa mecanismos y herramientas para controlar los costos durante la ejecución del proyecto.
             
-              .row.align-items-center.cajon.cajon1
-                .col-lg-2(data-aos="zoom-in")
+              .row.cajon.cajon1
+                .col-lg-2.cajon.cajon_1(data-aos="zoom-in")
                   figure
                     img(src="@/assets/curso/temas/tema3/img12.svg", alt="alt").img100
                 .col-lg-10.p-2(data-aos="fade-right")
-                  h5 Ejecución del Proyecto y Monitoreo Continuo
-                  p  Lleva a cabo las actividades del proyecto, según lo planeado, mientras se supervisa el cumplimiento del presupuesto.
+                  h5.mh5 Ejecución del Proyecto y Monitoreo Continuo
+                  p.mb-0  Lleva a cabo las actividades del proyecto, según lo planeado, mientras se supervisa el cumplimiento del presupuesto.
             
-              .row.align-items-center.cajon.cajon
-                .col-lg-2(data-aos="zoom-in")
+              .row.cajon.cajon
+                .col-lg-2.cajon.cajon_2(data-aos="zoom-in")
                   figure
                     img(src="@/assets/curso/temas/tema3/img13.svg", alt="alt").img100
                 .col-lg-10.p-2(data-aos="fade-right")
-                  h5 Identificación de desviaciones y toma de acción correctiva
-                  p  Detecta cualquier desviación en los costos y toma las medidas necesarias para corregirlas y mantener el proyecto dentro del presupuesto. 
+                  h5.mh5 Identificación de desviaciones y toma de acción correctiva
+                  p.mb-0  Detecta cualquier desviación en los costos y toma las medidas necesarias para corregirlas y mantener el proyecto dentro del presupuesto. 
             
-              .row.align-items-center.cajon.cajon1
-                .col-lg-2(data-aos="zoom-in")
+              .row.cajon.cajon1
+                .col-lg-2.cajon.cajon_1(data-aos="zoom-in")
                   figure
                     img(src="@/assets/curso/temas/tema3/img14.svg", alt="alt").img100
                 .col-lg-10.p-2(data-aos="fade-right")
-                  h5 Proyección y estimación final de costos
-                  p  Estima el costo total del proyecto al finalizar, calculando el desempeño actual y las proyecciones de gastos futuros.
+                  h5.mh5 Proyección y estimación final de costos
+                  p.mb-0  Estima el costo total del proyecto al finalizar, calculando el desempeño actual y las proyecciones de gastos futuros.
             
-              .row.align-items-center.cajon.cajon
-                .col-lg-2(data-aos="zoom-in")
+              .row.cajon.cajon
+                .col-lg-2.cajon.cajon_2
                   figure
                     img(src="@/assets/curso/temas/tema3/img15.svg", alt="alt").img100
-                .col-lg-10.p-2(data-aos="fade-right")
-                  h5 Cierre y evaluación del control presupuestal
-                  p Finaliza el proceso de control presupuestal, asegurando que todos los costos estén registrados y que se haya cumplido con los objetivos financieros del proyecto.
+                .col-lg-10.p-2
+                  h5.mh5 Cierre y evaluación del control presupuestal
+                  p.mb-0 Finaliza el proceso de control presupuestal, asegurando que todos los costos estén registrados y que se haya cumplido con los objetivos financieros del proyecto.
 </template>
 
 <script>

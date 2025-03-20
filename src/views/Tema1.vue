@@ -14,13 +14,13 @@
 
         .col-lg-8(data-aos="fade-right")
           p Las acciones que se desarrollan en la actividad turística en cualquier región del país, requieren de controles de manera permanente. Se entiende que lo que no se mide, no se controla y lo que no se controla, no se puede mejorar. Cualquier acción de control se hace con el fin de buscar que los recursos que se destinan para el desarrollo de un proyecto turístico, se inviertan de la forma más adecuada, con el fin de garantizar el cumplimiento de sus objetivos.
-          .cajon.color-primario.p-4.mb-4
+          .cajon.bg-1.mb-4
             .row.justify-content-center
-              .col-lg-2.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
+              .col-lg-2.col-4.d-lg-flex.d-none(data-aos="zoom-in")
                 figure
                   img(src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen')
               .col-lg-10(data-aos="fade-right")
-                p El control es la parte final de las tareas de la dirección, que comienza por la planificación y continúa con la organización y dirección. El control es una pieza clave porque ofrece la información para determinar si los objetivos iniciales fueron bien planteados y además establecer las futuras acciones que se deben poner en marcha.
+                p.p-2.mt-3 El control es la parte final de las tareas de la dirección, que comienza por la planificación y continúa con la organización y dirección. El control es una pieza clave porque ofrece la información para determinar si los objetivos iniciales fueron bien planteados y además establecer las futuras acciones que se deben poner en marcha.
 
       Separador
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -85,22 +85,22 @@
               p Esta herramienta permite analizar la variación entre el alcance planificado y el ejecutado de cada proyecto. Para el análisis de variación, se indica emplear herramientas de control, como inspecciones para garantizar que los entregables cumplan con los requisitos indicados.
         .py-4.py-md-5(titulo="Gestión del cronograma")
           .row.justify-content-center
-            .col-md-6.mb-4.mb-md-0(data-aos="zoom-in")
+            .col-md-6.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/temas/tema1/img7.png', alt='Texto que describa la imagen')
-            .col-md-3
-              .row.mb-2
-                .col-lg-2.col-8.mb-lg-0.mb-4.d-lg-flex.d-none
+            .col-md-5
+              .row.mb-3
+                .col-lg-2.col-8.mb-lg-0.mb-4.d-lg-flex.d-none(data-aos="zoom-in")
                   figure
                     img(src='@/assets/curso/temas/tema1/img8.svg', alt='Texto que describa la imagen')
               p Los #[i softwares] de gestión de cronogramas como Microsoft Project o Primavera para actualizar y monitorear los tiempos de entrega de resultados, permiten tener control sobre los componentes y sus horarios de entrega. Además, la metodología de análisis de tendencias revisa los patrones para prevenir desviaciones futuras.
         .py-4.py-md-5(titulo="Gestión de calidad")
           .row.justify-content-center
-            .col-md-6.mb-4.mb-md-0.d-lg-flex.d-none(data-aos="zoom-in")
+            .col-md-6.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
-            .col-md-3
-              .row.mb-2
+            .col-md-5
+              .row.mb-3
                 .col-lg-2.col-8.mb-lg-0.mb-4.d-lg-flex.d-none(data-aos="zoom-in")
                   figure
                     img(src='@/assets/curso/temas/tema1/img10.svg', alt='Texto que describa la imagen')

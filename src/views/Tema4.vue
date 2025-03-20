@@ -9,13 +9,13 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p Una acción de mejora es una medida que contribuye a mejorar la eficiencia o eficacia de las actividades de un sistema de gestión. Estas se incluyen en el plan de mejoras, que constituye el principal objetivo dentro de un proceso de mejora continua, por lo que son consideradas las principales herramientas a desarrollar dentro del mismo. 
-        .cajon.color-primario.p-4.mb-4
-          .row.mb-0 
-            .col-lg-2.col-4.mb-lg-0.mb-4
+        .cajon.bg-1
+          .row.justify-content-center
+            .col-lg-2.col-4.d-lg-flex.d-none(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/temas/tema4/img2.svg', alt='Texto que describa la imagen')
-            .col-lg-10
-              p Para elaborar un plan de mejoras, se necesita el compromiso de todos los que intervienen en cada etapa del proyecto. Este plan proyecta los cambios que deben incorporarse a los diferentes procesos del proyecto, para que se ajusten con el fin de obtener el éxito del proyecto. 
+            .col-lg-10(data-aos="fade-right")
+              p.p-2.mt-2 Para elaborar un plan de mejoras, se necesita el compromiso de todos los que intervienen en cada etapa del proyecto. Este plan proyecta los cambios que deben incorporarse a los diferentes procesos del proyecto, para que se ajusten con el fin de obtener el éxito del proyecto. 
       .col-lg-4.col-8.mb-lg-0.mb-4.order-lg-2.order-1(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema4/img1.png', alt='Texto que describa la imagen')
@@ -62,7 +62,7 @@
           p.text-normal(numero="6" titulo="Realizar la planificación") Hay que revisar si hay impedimentos que condicionen la viabilidad. En esta etapa, no necesariamente se da prioridad a lo más urgente, sino que se deben revisar todos los criterios de toma de decisiones.
           p.text-normal(numero="7" titulo="Hacer el seguimiento al plan de mejoras") Luego de establecer las prioridades, se hace la construcción del plan de mejoras, en la que se debe relacionar los ítems, para poder hacerle seguimiento y así garantizar su eficacia y su eficiencia. Para ello, se debe hacer en primer lugar las tareas o acciones concretas que se fijaron, con el fin de darle cumplimiento a los objetivos. Se requiere asignar responsables por cada tarea, así como la relación de los recursos físicos, los indicadores, el cronograma y lo que ayude a su seguimiento permanente.
 
-      .col-lg-4.col-8.mb-lg-0.mb-4.order-lg-2.order-1(data-aos="zoom-in")
+      .col-lg-4.col-8.mb-lg-0.mb-4.order-lg-2.order-1.d-lg-flex.d-none(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema4/img4.png', alt='Texto que describa la imagen')
 

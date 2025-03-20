@@ -10,7 +10,7 @@
       h1 Introducción
     p(data-aos="fade-right") Los proyectos turísticos impactan de manera positiva a la región en la que se van a implementar, ya que ayudan al desarrollo económico, a la generación de empleo local, se incrementa la demanda de bienes y servicios y se beneficia la cadena de valor del turismo. Cuando se hacen inversiones de carácter turístico en las regiones, se espera que estas sean a largo plazo, por lo cual los proyectos turísticos deben estar sujetos a controles y seguimientos permanentemente.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3(data-aos="zoom-in")
+      .col-lg-3.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/intro/img1.png', alt='Texto que describa la imagen')
 
@@ -19,7 +19,7 @@
         p Es por eso que el éxito del proyecto turístico, se basa en una correcta planeación, así como en la implementación de actividades de control y seguimiento al mismo. Los proyectos turísticos son sostenibles en la medida en que se apliquen controles regulares de supervisión, de posibles fallas y acciones de mejora, de informes periódicos que garanticen a las regiones.
         .cajon.color-primario.p-3
           .row.justify-content-center
-            .col-lg-2(data-aos="zoom-in")
+            .col-lg-2.col-4.d-lg-flex.d-none(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/temas/intro/img2.svg', alt='Texto que describa la imagen')
             .col-lg-10(data-aos="fade-right")

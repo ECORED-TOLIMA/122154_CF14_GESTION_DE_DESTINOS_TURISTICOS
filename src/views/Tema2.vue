@@ -7,41 +7,33 @@
         span 2
       h1 Gestión de actividades del proyecto
     p(data-aos="fade-right") Se enfoca en identificar, planificar, ejecutar, monitorear y controlar las tareas específicas necesarias para cumplir con los objetivos del proyecto. Esto incluye:
+
     .row.mb-5
       .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
-        .tarjeta--boton.color-primario.tarjeta--BG02.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema2/img1.svg', alt="Imagen decorativa")
-          p Definir las actividades a realizar.
+        .tarjeta--boton.tarjeta--boton-1.color-primario.tarjeta--BG02-1.p-4
+          .row.justify-content-center
+            .col-12
+              p.posic Definir las actividades a realizar.
+              br
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
-        .tarjeta--boton.color-secundario.tarjeta--BG02.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema2/img2.svg', alt="Imagen decorativa")
-
-          p Organizarlas de manera lógica.
+        .tarjeta--boton.tarjeta--boton-2.color-primario.tarjeta--BG02-2.p-4
+          .row.justify-content-center
+            .col-12
+              p.posic Organizarlas de manera lógica.
+              br
 
       .col-sm-6.col-lg-3.mb-4.mb-sm-0(data-aos="zoom-in")
-        .tarjeta--boton.color-acento-contenido.tarjeta--BG02.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema2/img3.svg', alt="Imagen decorativa")
-                
-          p Estimar los recursos y la duración requerida.
+        .tarjeta--boton.tarjeta--boton-3.color-primario.tarjeta--BG02-3.p-4
+          .row.justify-content-center
+            .col-12
+              p.posic Estimar los recursos y la duración requerida.
 
       .col-sm-6.col-lg-3.mb-4.mb-sm-0(data-aos="zoom-in")
-        .tarjeta--boton.color-acento-contenido.tarjeta--BG02.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema2/img4.svg', alt="Imagen decorativa")
-
-          p Desarrollar el cronograma y supervisar su cumplimiento.
+        .tarjeta--boton.tarjeta--boton-4.color-primario.tarjeta--BG02-4.p-4
+          .row.justify-content-center
+            .col-12
+              p.posic Desarrollar el cronograma y supervisar su cumplimiento.
 
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -134,13 +126,13 @@
           img(src='@/assets/curso/temas/tema2/img13.png', alt="Imagen decorativa")
     .row.justify-content-center.align-items-center
       .col-lg-10
-        .cajon.color-primario
+        .cajon.bg-1
           .row.justify-content-center
-            .col-lg-2.col-4.mb-lg-0.mb-4(data-aos="zoom-in")
+            .col-lg-2.col-4.d-lg-flex.d-none(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/temas/tema2/img14.svg', alt='Texto que describa la imagen')
-            .col-lg-10.p-4(data-aos="fade-right")
-              p.p-4 Controlar el alcance del proyecto es clave para asegurar que se entreguen todos los componentes planificados y no se incorporen cambios no previstos (lo que se conoce como "#[i scope creep]"). En proyectos turísticos, esto podría incluir la definición precisa de los servicios turísticos que se ofrecerán, las actividades y los itinerarios y cómo estos elementos se ajustan a las expectativas del cliente.
+            .col-lg-10(data-aos="fade-right")
+              p.p-2.mt-5 Controlar el alcance del proyecto es clave para asegurar que se entreguen todos los componentes planificados y no se incorporen cambios no previstos (lo que se conoce como "#[i scope creep]"). En proyectos turísticos, esto podría incluir la definición precisa de los servicios turísticos que se ofrecerán, las actividades y los itinerarios y cómo estos elementos se ajustan a las expectativas del cliente.
 </template>
 
 <script>

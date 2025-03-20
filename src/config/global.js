@@ -145,7 +145,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CFA_14_122154_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -330,7 +330,7 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Liliana Victoria Morales Gualdrón',
+          nombre: 'Diana Rocio Possos',
           cargo: 'Responsable de línea de producción',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },

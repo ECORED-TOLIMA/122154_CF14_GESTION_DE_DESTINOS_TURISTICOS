@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="En la síntesis del componente formativo Control y seguimiento del proyecto turístico, inicialmente se tratan los aspectos que tienen que ver con las fases existentes dentro del seguimiento y los tipos de gestión presentes en este proceso; además, de las etapas, habilidades y el ciclo de vida que se tiene en la gestión de actividades de un proyecto. Luego, se desglosa el proceso relacionado con el control presupuestal, el cual se aplica por medio de herramientas, tableros de control y diversos procedimientos para su elaboración. Por último, se aplican las acciones de mejora, antes de producir el informe final que evalúa todo este accionar turístico.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
