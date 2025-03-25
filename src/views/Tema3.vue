@@ -43,7 +43,7 @@
               .col-md-9.order-lg-1.order-2.mb-4.mb-md-0(data-aos="fade-left")
                 h4 Método del Valor Ganado (EVM) 
                 p Es una técnica de gestión de proyectos que integra el alcance, el cronograma y el costo para evaluar el desempeño y el progreso del proyecto. Permite responder preguntas como ¿El proyecto está dentro del presupuesto? ¿Está avanzando según lo planificado?
-              .col-lg-3.order-lg-2.order-1.mb-4(data-aos="zoom-in")
+              .col-lg-3.col-lg-3.col-sm-8.mb-4.order-1.mb-4(data-aos="zoom-in")
                 figure
                   img(src='@/assets/curso/temas/tema3/img4.svg', alt='Figura decorativa')
             .row(titulo="")
@@ -57,7 +57,7 @@
               .col-md-9.order-lg-1.order-2.mb-4.mb-md-0(data-aos="fade-left")
                 h4 Análisis de tendencias
                 p Es una técnica que permite identificar patrones en los datos históricos del proyecto, para predecir el comportamiento futuro de los costos. Se utiliza para tomar decisiones preventivas y correctivas.
-              .col-lg-3.order-lg-2.order-1.mb-4(data-aos="zoom-in")
+              .col-lg-3.col-lg-3.col-sm-8.mb-4.order-1.mb-4(data-aos="zoom-in")
                 figure
                   img(src='@/assets/curso/temas/tema3/img6.svg', alt='Figura decorativa')
             .row(titulo="")
@@ -71,29 +71,33 @@
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.2.	Tablero de control (#[i Dashboard])
-    .row.justify-content-center.align-items-center.mb-3
+      
+    .row
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p Es una herramienta visual que presenta información clave sobre el desempeño financiero de un proyecto, en tiempo real. Su objetivo es proporcionar una visión clara, concisa y fácilmente accesible de los indicadores más importantes relacionados con el presupuesto. Además, lleva a cabo los siguientes procesos: 
-        .row.mb-4
-          .col-lg-6.mb-4(data-aos="fade-right")
-            .tarjeta.color-acento-contenido.tarjeta-color1.h-100.p-4
-              h4 Costo planeado-costo real
-              p Muestra si el proyecto está dentro del presupuesto, con gráficos de barras o líneas, para comparar el costo planificado frente al costo real.
-          .col-lg-6(data-aos="fade-right")
-            .tarjeta.color-acento-contenido.tarjeta-color1.h-100.p-4
-              h4  Indice de Desempeño del Costo (IPC)
-              p Indica la eficiencia en el uso del presupuesto, con valores por encima de 1, mostrando que el proyecto está bajo presupuesto.
         .row
-          .col-lg-6.mb-4(data-aos="fade-right")
-            .tarjeta.color-acento-contenido.tarjeta-color1.h-100.p-4
-              h4 Variación del Costo (CV)
-              p Muestra la diferencia entre el costo real y el planeado.
-          .col-lg-6(data-aos="fade-right")
-            .tarjeta.color-acento-contenido.tarjeta-color1.h-100.p-4
-              h4  Proyección de Costo Total (EAC)
-              p Estima los costos al final del proyecto, basado en el desempeño actual.
+          .col-sm-6.col-lg-6.mb-3(data-aos="fade-right")
+            .tarjeta-avatar.tarjeta.color-primario.p-4.w-100
+                h4 Costo planeado-costo real
+                p Muestra si el proyecto está dentro del presupuesto, con gráficos de barras o líneas, para comparar el costo planificado frente al costo real.
+          
+          .col-sm-6.col-lg-6.mb-3(data-aos="fade-right")
+            .tarjeta-avatar.tarjeta.color-primario.p-4.w-100
+                h4  Indice de Desempeño del Costo (IPC)
+                p Indica la eficiencia en el uso del presupuesto, con valores por encima de 1, mostrando que el proyecto está bajo presupuesto.
+        
+          .col-sm-6.col-lg-6.mb-3(data-aos="fade-right")
+            .tarjeta-avatar.tarjeta.color-primario.p-4.w-100
+                h4 Variación del Costo (CV)
+                p Muestra la diferencia entre el costo real y el planeado.
+          .col-sm-6.col-lg-6.mb-3(data-aos="fade-right")
+            .tarjeta-avatar.tarjeta.color-primario.p-4.w-100
+                h4  Proyección de Costo Total (EAC)
+                p Estima los costos al final del proyecto, basado en el desempeño actual.
+                br
+                br
          
-      .col-lg-4.order-lg-2.order-1(data-aos="zoom-in")
+      .col-lg-4.order-lg-2.order-1.col-8(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema3/img8.png', alt='Figura decorativa')
     

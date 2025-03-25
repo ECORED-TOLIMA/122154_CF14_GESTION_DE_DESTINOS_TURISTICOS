@@ -1,16 +1,16 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-3
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
       h1 Acciones de mejora
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p Una acción de mejora es una medida que contribuye a mejorar la eficiencia o eficacia de las actividades de un sistema de gestión. Estas se incluyen en el plan de mejoras, que constituye el principal objetivo dentro de un proceso de mejora continua, por lo que son consideradas las principales herramientas a desarrollar dentro del mismo. 
         .cajon.bg-1
-          .row.justify-content-center
+          .row.justify-content-center.align-items-center
             .col-lg-2.col-4.d-lg-flex.d-none(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/temas/tema4/img2.svg', alt='Texto que describa la imagen')
@@ -20,7 +20,7 @@
         figure
           img(src='@/assets/curso/temas/tema4/img1.png', alt='Texto que describa la imagen')
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-6.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema4/img3.png', alt='Texto que describa la imagen')
@@ -50,7 +50,7 @@
     Separador
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.1.	Pasos a seguir para la elaboración del plan de mejoras
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p Los siguientes son los pasos que se deben realizar: 
         LineaTiempoD.color-acento-botones.mb-4
@@ -70,7 +70,7 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.2.	Informes
     
-    .bloque-texto-g.bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
+    .bloque-texto-g.bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-3(data-aos="zoom-in")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img5.png')})`}" data-aos="fade-left"
       )

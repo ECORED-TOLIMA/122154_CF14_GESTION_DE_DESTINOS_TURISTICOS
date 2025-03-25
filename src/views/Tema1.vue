@@ -15,12 +15,12 @@
         .col-lg-8(data-aos="fade-right")
           p Las acciones que se desarrollan en la actividad turística en cualquier región del país, requieren de controles de manera permanente. Se entiende que lo que no se mide, no se controla y lo que no se controla, no se puede mejorar. Cualquier acción de control se hace con el fin de buscar que los recursos que se destinan para el desarrollo de un proyecto turístico, se inviertan de la forma más adecuada, con el fin de garantizar el cumplimiento de sus objetivos.
           .cajon.bg-1.mb-4
-            .row.justify-content-center
+            .row.justify-content-center.align-items-center
               .col-lg-2.col-4.d-lg-flex.d-none(data-aos="zoom-in")
                 figure
                   img(src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen')
               .col-lg-10(data-aos="fade-right")
-                p.p-2.mt-3 El control es la parte final de las tareas de la dirección, que comienza por la planificación y continúa con la organización y dirección. El control es una pieza clave porque ofrece la información para determinar si los objetivos iniciales fueron bien planteados y además establecer las futuras acciones que se deben poner en marcha.
+                p.mb-0 El control es la parte final de las tareas de la dirección, que comienza por la planificación y continúa con la organización y dirección. El control es una pieza clave porque ofrece la información para determinar si los objetivos iniciales fueron bien planteados y además establecer las futuras acciones que se deben poner en marcha.
 
       Separador
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")

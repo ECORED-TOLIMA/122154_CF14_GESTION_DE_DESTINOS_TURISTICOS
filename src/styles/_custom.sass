@@ -145,7 +145,9 @@ figcaption
 
 // Fondos
 .bg-1
-  background-color: #FFE9DF !important
+  background: linear-gradient(to right, #FECAB2 12%, #FFE9DF 12%)
+  @media (max-width: $bp-max-md)
+    background: linear-gradient(to bottom, #FECAB2 22%, #FFE9DF 22%)
 .tarjeta--BG04
   //background-image: url("../assets/curso/temas/tema1/bgpasos.png")
   background-size: cover

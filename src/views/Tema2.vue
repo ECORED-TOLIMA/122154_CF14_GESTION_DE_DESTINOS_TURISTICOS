@@ -7,6 +7,7 @@
         span 2
       h1 Gestión de actividades del proyecto
     p(data-aos="fade-right") Se enfoca en identificar, planificar, ejecutar, monitorear y controlar las tareas específicas necesarias para cumplir con los objetivos del proyecto. Esto incluye:
+  
 
     .row.mb-5
       .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
