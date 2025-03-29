@@ -9,13 +9,13 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p Una acción de mejora es una medida que contribuye a mejorar la eficiencia o eficacia de las actividades de un sistema de gestión. Estas se incluyen en el plan de mejoras, que constituye el principal objetivo dentro de un proceso de mejora continua, por lo que son consideradas las principales herramientas a desarrollar dentro del mismo. 
-        .cajon.bg-1
-          .row.justify-content-center.align-items-center
-            .col-lg-2.col-4.d-lg-flex.d-none(data-aos="zoom-in")
+        .cajon.bg-1.mb-4
+          .row.justify-content-center.align-items-center.p-4
+            .col-lg-2.col-4.mb-lg-0.mb-4(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/temas/tema4/img2.svg', alt='Texto que describa la imagen')
             .col-lg-10(data-aos="fade-right")
-              p.p-2.mt-2 Para elaborar un plan de mejoras, se necesita el compromiso de todos los que intervienen en cada etapa del proyecto. Este plan proyecta los cambios que deben incorporarse a los diferentes procesos del proyecto, para que se ajusten con el fin de obtener el éxito del proyecto. 
+              p.mb-0Para elaborar un plan de mejoras, se necesita el compromiso de todos los que intervienen en cada etapa del proyecto. Este plan proyecta los cambios que deben incorporarse a los diferentes procesos del proyecto, para que se ajusten con el fin de obtener el éxito del proyecto. 
       .col-lg-4.col-8.mb-lg-0.mb-4.order-lg-2.order-1(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema4/img1.png', alt='Texto que describa la imagen')

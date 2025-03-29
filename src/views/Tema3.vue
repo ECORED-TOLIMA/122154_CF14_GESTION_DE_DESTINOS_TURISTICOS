@@ -25,43 +25,43 @@
       .row.justify-content-center.align-items-center.mb-3
         .col-lg-10
           PasosA.color-acento-contenido.mb-4(tipo="n")
-            .row(titulo="")
+            .row.justify-content-center(titulo="")
               .col-md-9.order-lg-1.order-2.mb-4.mb-md-0(data-aos="fade-left")
                 h4 Seguimiento financiero
                 p Se hace de forma mensual con actividades desagregadas con un informe financiero, al que se le deben anexar los soportes.
-              .col-lg-3.order-lg-2.order-1.mb-4(data-aos="zoom-in")
+              .col-lg-3.col-6.order-lg-2.order-1.mb-4(data-aos="zoom-in")
                 figure
                   img(src='@/assets/curso/temas/tema3/img2.svg', alt='Figura decorativa')
-            .row(titulo="")
-              .col-lg-3.col-lg-3.col-sm-8.mb-4(data-aos="zoom-in")
+            .row.justify-content-center(titulo="")
+              .col-lg-3.col-6.mb-4(data-aos="zoom-in")
                 figure
                   img(src='@/assets/curso/temas/tema3/img3.svg', alt='Figura decorativa')
               .col-md-9.mb-4.mb-md-0(data-aos="fade-left")
                 h4 Cotizaciones
                 p Para un proyecto se requieren mínimo 3 cotizaciones, lo que garantiza que se enmarca en un rango preciso.
-            .row(titulo="")
+            .row.justify-content-center(titulo="")
               .col-md-9.order-lg-1.order-2.mb-4.mb-md-0(data-aos="fade-left")
                 h4 Método del Valor Ganado (EVM) 
                 p Es una técnica de gestión de proyectos que integra el alcance, el cronograma y el costo para evaluar el desempeño y el progreso del proyecto. Permite responder preguntas como ¿El proyecto está dentro del presupuesto? ¿Está avanzando según lo planificado?
-              .col-lg-3.col-lg-3.col-sm-8.mb-4.order-1.mb-4(data-aos="zoom-in")
+              .col-lg-3.col-6.mb-4.order-1.mb-4(data-aos="zoom-in")
                 figure
                   img(src='@/assets/curso/temas/tema3/img4.svg', alt='Figura decorativa')
-            .row(titulo="")
-              .col-lg-3.col-lg-3.col-sm-8.mb-4(data-aos="zoom-in")
+            .row.justify-content-center(titulo="")
+              .col-lg-3.col-6.mb-4(data-aos="zoom-in")
                 figure
                   img(src='@/assets/curso/temas/tema3/img5.svg', alt='Figura decorativa')
               .col-md-9.mb-4.mb-md-0(data-aos="fade-left")
                 h4 Sistemas de Gestión de Costos
                 p Son herramientas tecnológicas diseñadas para planificar, rastrear, analizar y controlar los costos de un proyecto. Proveen una visión integral del estado financiero del proyecto y ayudan a tomar decisiones informadas. Sus características principales son la presupuestación y planificación, el seguimiento en tiempo real, la integración de datos y el reporte de análisis. Un ejemplo de este #[i software] es Microsoft Project.
-            .row(titulo="")
+            .row.justify-content-center(titulo="")
               .col-md-9.order-lg-1.order-2.mb-4.mb-md-0(data-aos="fade-left")
                 h4 Análisis de tendencias
                 p Es una técnica que permite identificar patrones en los datos históricos del proyecto, para predecir el comportamiento futuro de los costos. Se utiliza para tomar decisiones preventivas y correctivas.
-              .col-lg-3.col-lg-3.col-sm-8.mb-4.order-1.mb-4(data-aos="zoom-in")
+              .col-lg-3.col-6.mb-4.order-1.mb-4(data-aos="zoom-in")
                 figure
                   img(src='@/assets/curso/temas/tema3/img6.svg', alt='Figura decorativa')
-            .row(titulo="")
-              .col-lg-3.col-lg-3.col-sm-8.mb-4(data-aos="zoom-in")
+            .row.justify-content-center(titulo="")
+              .col-lg-3.col-6.mb-4(data-aos="zoom-in")
                 figure
                   img(src='@/assets/curso/temas/tema3/img7.svg', alt='Figura decorativa')
               .col-md-9.mb-4.mb-md-0(data-aos="fade-left")
@@ -77,25 +77,22 @@
         p Es una herramienta visual que presenta información clave sobre el desempeño financiero de un proyecto, en tiempo real. Su objetivo es proporcionar una visión clara, concisa y fácilmente accesible de los indicadores más importantes relacionados con el presupuesto. Además, lleva a cabo los siguientes procesos: 
         .row
           .col-sm-6.col-lg-6.mb-3(data-aos="fade-right")
-            .tarjeta-avatar.tarjeta.color-primario.p-4.w-100
+            .tarjeta-avatar.tarjeta.color-primario.p-4.h-100
                 h4 Costo planeado-costo real
-                p Muestra si el proyecto está dentro del presupuesto, con gráficos de barras o líneas, para comparar el costo planificado frente al costo real.
-          
+                p Muestra si el proyecto está dentro del presupuesto, con gráficos de barras o líneas, para comparar el costo planificado frente al costo real.        
           .col-sm-6.col-lg-6.mb-3(data-aos="fade-right")
-            .tarjeta-avatar.tarjeta.color-primario.p-4.w-100
-                h4  Indice de Desempeño del Costo (IPC)
+            .tarjeta-avatar.tarjeta.color-primario.p-4.h-100
+                h4  Indice de Desempeño del Costo (IPC)0
                 p Indica la eficiencia en el uso del presupuesto, con valores por encima de 1, mostrando que el proyecto está bajo presupuesto.
-        
           .col-sm-6.col-lg-6.mb-3(data-aos="fade-right")
-            .tarjeta-avatar.tarjeta.color-primario.p-4.w-100
+            .tarjeta-avatar.tarjeta.color-primario.p-4.h-100
                 h4 Variación del Costo (CV)
                 p Muestra la diferencia entre el costo real y el planeado.
           .col-sm-6.col-lg-6.mb-3(data-aos="fade-right")
-            .tarjeta-avatar.tarjeta.color-primario.p-4.w-100
+            .tarjeta-avatar.tarjeta.color-primario.p-4.h-100
                 h4  Proyección de Costo Total (EAC)
                 p Estima los costos al final del proyecto, basado en el desempeño actual.
-                br
-                br
+
          
       .col-lg-4.order-lg-2.order-1.col-8(data-aos="zoom-in")
         figure
