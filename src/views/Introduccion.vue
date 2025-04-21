@@ -14,16 +14,15 @@
         figure
           img(src='@/assets/curso/temas/intro/img1.png', alt='Texto que describa la imagen')
 
-      .col-lg-9(data-aos="fade-right")
+      .col-lg-8(data-aos="fade-right")
         p Un proyecto turístico debe planificar muchos aspectos que están encadenados, ya que finalmente, lo que pretende es impactar de manera positiva a un destino turístico, una región determinada o un atractivo turístico existente.
-        p Es por eso que el éxito del proyecto turístico, se basa en una correcta planeación, así como en la implementación de actividades de control y seguimiento al mismo. Los proyectos turísticos son sostenibles en la medida en que se apliquen controles regulares de supervisión, de posibles fallas y acciones de mejora, de informes periódicos que garanticen a las regiones.
         .cajon.color-primario.p-3
           .row.justify-content-center.align-items-center
             .col-lg-2.col-4.d-lg-flex.d-none.px-0(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/temas/intro/img2.svg', alt='Texto que describa la imagen')
             .col-lg-10(data-aos="fade-right")
-              p.mb-0 Los procesos de seguimiento y control son más eficaces y rápidos cuando se han establecido unos objetivos claros, alcanzables, medibles y calificables tanto cuantitativamente como cualitativamente. De un buen control se pueden establecer si se están logrando los objetivos o si se requiere mejorar algún aspecto, que no permita el avance normal del proyecto.
+              p.mb-0 Es por eso que el éxito del proyecto turístico, se basa en una correcta planeación, así como en la implementación de actividades de control y seguimiento al mismo. Los proyectos turísticos son sostenibles en la medida en que se apliquen controles regulares de supervisión, de posibles fallas y acciones de mejora, de informes periódicos que garanticen a las regiones.
     p.mb-3(data-aos="fade-right") Conociendo el anterior contexto, es importante que acceda al siguiente video, el cual explica la temática a tratar durante este componente formativo:
 
 

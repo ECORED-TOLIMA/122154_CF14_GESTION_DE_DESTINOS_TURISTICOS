@@ -15,7 +15,7 @@
               figure
                 img(src='@/assets/curso/temas/tema4/img2.svg', alt='Texto que describa la imagen')
             .col-lg-10(data-aos="fade-right")
-              p.mb-0Para elaborar un plan de mejoras, se necesita el compromiso de todos los que intervienen en cada etapa del proyecto. Este plan proyecta los cambios que deben incorporarse a los diferentes procesos del proyecto, para que se ajusten con el fin de obtener el éxito del proyecto. 
+              p.mb-0 Para elaborar un plan de mejoras, se necesita el compromiso de todos los que intervienen en cada etapa del proyecto. Este plan proyecta los cambios que deben incorporarse a los diferentes procesos del proyecto, para que se ajusten con el fin de obtener el éxito del proyecto. 
       .col-lg-4.col-8.mb-lg-0.mb-4.order-lg-2.order-1(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema4/img1.png', alt='Texto que describa la imagen')

@@ -78,7 +78,7 @@
         .row
           .col-sm-6.col-lg-6.mb-3(data-aos="fade-right")
             .tarjeta-avatar.tarjeta.color-primario.p-4.h-100
-                h4 Costo planeado-costo real
+                h4 Costo Planeado-Costo Real (CPCR)
                 p Muestra si el proyecto está dentro del presupuesto, con gráficos de barras o líneas, para comparar el costo planificado frente al costo real.        
           .col-sm-6.col-lg-6.mb-3(data-aos="fade-right")
             .tarjeta-avatar.tarjeta.color-primario.p-4.h-100

@@ -104,7 +104,7 @@
                 .col-lg-2.col-8.d-lg-flex.d-none
                   figure
                     img(src='@/assets/curso/temas/tema1/img10.svg', alt='Texto que describa la imagen')
-              p Para este punto, se emplean las listas de verificación para garantizar que los entregables cumplan con los estándares de calidad, además se realizan auditorías de calidad, las cuales se basan en evaluaciones estructuradas de procesos y entregables. Finalmente, se lleva a cabo un diagrama de causa-efecto para identificar causas raíz de problemas de calidad.
+              p Se emplean las listas de verificación para garantizar que los entregables cumplan con los estándares de calidad, además se realizan auditorías de calidad, las cuales se basan en evaluaciones estructuradas de procesos y entregables. Finalmente, se lleva a cabo un diagrama de causa-efecto para identificar causas raíz de problemas de calidad.
         
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10(data-aos="fade-right")

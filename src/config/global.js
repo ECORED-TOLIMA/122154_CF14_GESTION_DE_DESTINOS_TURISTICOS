@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Control y seguimiento del proyecto turístico',
     Description:
-      'El éxito de un proyecto turístico, se basa en una correcta planeación, así como en la implementación de actividades de control y seguimiento al mismo. Los proyectos turísticos son sostenibles en la medida en que se apliquen controles regulares de supervisión, de posibles fallas y acciones de mejora, de informes periódicos que garanticen a las regiones.',
+      'El éxito de un proyecto turístico, se basa en una correcta planeación, así como en la implementación de actividades de control y seguimiento al mismo. Los proyectos turísticos son sostenibles en la medida en que se apliquen controles regulares de supervisión, de posibles fallas y acciones de mejora, de informes periódicos que garanticen a las regiones un adecuado seguimiento.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
