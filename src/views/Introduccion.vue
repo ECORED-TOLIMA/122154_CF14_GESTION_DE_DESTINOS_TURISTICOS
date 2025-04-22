@@ -30,7 +30,7 @@
       .col-lg-12(data-aos="zoom-in")
         figure
           .video
-            iframe(width="1280" height="720" src="https://www.youtube.com/embed/yAX8KoTCdcE" title="Control y seguimiento del proyecto turístico" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+            iframe(width="1280" height="720" src="https://www.youtube.com/embed/Mhk2-6N6EHk" title="Control y seguimiento del proyecto turístico" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
             
 </template>
 
